@@ -65,28 +65,28 @@
             </div>
             <div class="my-works">
                 <div class="image-container">
-                    <img src="./assets/images/project_one.png">
+                    <img alt="projects"  src="./assets/images/project_one.png">
                     <div class="title">
                        Description: A website that portrays an online wine store.
                        Tools: Html, Css, Javascript
                     </div>
                 </div>
                 <div class="image-container">
-                    <img src="./assets/images/project_one.png">
+                    <img alt="projects"  src="./assets/images/project_one.png">
                     <div class="title">
                     Description: A website that portrays an online wine store.
                     Tools: Html, Css, Javascript
                     </div>
                 </div>
                 <div class="image-container">
-                    <img src="./assets/images/project_one.png">
+                    <img alt="projects"  src="./assets/images/project_one.png">
                     <div class="title">
                     Description: A website that portrays an online wine store.
                     Tools: Html, Css, Javascript
                     </div>
                 </div>
                 <div class="image-container">
-                    <img src="./assets/images/project_one.png">
+                    <img alt="projects" src="./assets/images/project_one.png">
                     <div class="title">
                         Description: A website that portrays an online wine store.
                     Tools: Html, Css, Javascript
@@ -102,11 +102,16 @@
             <p>Email me and let me know the latest news</p>
             <div class="form-container">
                 <form>
-                    <input placeholder="Your Name" required type="text"/>
-                    <input placeholder="Last Name" required type="text"/>
-                    <input placeholder="Email" required type="text"/>
-                    <input placeholder="Subject of this message" type="text"/>
-                    <textarea name="message" placeholder="message" required rows="5"></textarea>
+                    <label for="fname">First name:</label><br>
+                    <input id="fname" placeholder="First Name" required type="text"/>
+                    <label for="lname">Last name:</label><br>
+                    <input id="lname" placeholder="Last Name" required type="text"/>
+                    <label for="email">Email:</label><br>
+                    <input id="email" placeholder="Email" required type="text"/>
+                    <label for="subject">Subject:</label><br>
+                    <input id="subject" placeholder="Subject of this message" type="text"/>
+                    <label for="textarea">Text:</label><br>
+                    <textarea id="textarea" name="message" placeholder="message" required rows="5"></textarea>
                     <button class="submit">Send Message</button>
                 </form>
             </div>
